@@ -10,11 +10,11 @@
                                 LT1  LT2  LT3      RT3  RT2  RT1
 
 #include <aekeynox/selenium.keymap>
+#include <input/processors.dtsi>
+
 / {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball>;
-        input-processors = <&sensor_rotation>;
+    trackpad_listener {
+    input-processors = <&sensor_rotation>;
     };
 };
 
