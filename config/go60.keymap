@@ -14,6 +14,7 @@
 
 / {
     trackpad_listener {
+    compatible = "zmk,input-listener";
     input-processors = <&sensor_rotation>;
     };
 };
