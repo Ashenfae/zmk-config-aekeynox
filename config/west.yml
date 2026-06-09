@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/raeedcho
     - name: rloutier
       url-base: https://github.com/rloutier
+    - name: hsgw
+      url-base: https://github.com/hsgw
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -28,6 +30,9 @@ manifest:
       revision: main
     - name: zmk-config-go60
       remote: rloutier
+      revision: main
+    - name: zmk-feature-sensor_rotation
+      remote: hsgw
       revision: main
   self:
     path: config
