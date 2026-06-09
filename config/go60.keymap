@@ -28,4 +28,4 @@
     };
 };
 
-#include <zmk-feature-sensor_rotation/input/processors/sensor_rotation.dtsi>
+#include <input/processors/sensor_rotation.dtsi>
