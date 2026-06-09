@@ -33,6 +33,7 @@ manifest:
       revision: main
     - name: zmk-feature-sensor_rotation
       remote: hsgw
+      revision: main
       import: west.yml
   self:
     path: config
